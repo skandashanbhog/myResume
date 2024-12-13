@@ -1,0 +1,95 @@
+/* Body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Light background */
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header styling */
+.resume-header {
+    background: #2c3e50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.resume-header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.resume-header p {
+    margin: 5px 0 0;
+    font-size: 1rem;
+}
+/* Section layout */
+.resume-section {
+    background: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 800px;
+}
+
+/* Section headers */
+.resume-section h2 {
+    margin-bottom: 10px;
+    color: #2c3e50;
+    border-bottom: 2px solid #e74c3c;
+    padding-bottom: 5px;
+}
+
+/* Job details */
+.job h3 {
+    margin: 0;
+    color: #34495e;
+}
+
+.job p {
+    font-size: 0.9rem;
+    color: #7f8c8d;
+}
+@media (max-width: 768px) {
+    .resume-section {
+        width: 95%;
+    }
+
+    .resume-header h1 {
+        font-size: 2rem;
+    }
+
+    .resume-header p {
+        font-size: 0.9rem;
+    }
+}
+.skill-bar {
+    background: #ecf0f1;
+    border-radius: 5px;
+    overflow: hidden;
+    margin: 5px 0;
+}
+
+.skill-bar span {
+    display: block;
+    height: 10px;
+    background: #e74c3c;
+    width: 80%; /* Adjust percentage for skill level */
+}
+
+/* Footer Section Styling */
+.resume-footer {
+    background-color: #34495e;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
